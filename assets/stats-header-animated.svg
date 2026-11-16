@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="954" height="64" viewBox="0 0 954 64" role="img"><title>GitHub Stats</title><defs><mask id="outer-alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="954" height="700"><path d="M17 64V26L43 6H350L374 23H930L940 34V64Z" fill="white" stroke="white" stroke-width="1.5" stroke-linejoin="miter"/></mask></defs><g mask="url(#outer-alpha)"><rect width="954" height="64" fill="#08090e"/><path d="M17 64V26L43 6H350L374 23H930L940 34V64" fill="none" stroke="#d8d4d9" stroke-width="1.5"/><path d="M21.000 64.000L21.000 27.970L44.360 10.000L348.727 10.000L372.727 27.000L928.231 27.000L936.000 35.546L936.000 64.000" fill="none" stroke="#b52040" stroke-width="1.5"/><path d="M32 52L55 19H68L45 52Z" fill="#ed0028" class="motion-stripe" style="--delay:0.0s"/><path d="M52 52L75 19H85L62 52Z" fill="#ed0028" class="motion-stripe" style="--delay:0.3s"/><path d="M69 52L92 19H99L76 52Z" fill="#ed0028" class="motion-stripe" style="--delay:0.6s"/><text x="112" y="45" font-family="Arial, sans-serif" font-weight="900" font-style="italic" font-size="28" fill="#f8f7f6">GitHub Stats</text></g><style>
+.motion-petal {animation:petal-drift var(--duration) linear infinite; animation-delay:var(--delay);opacity:0;}
+@keyframes petal-drift {
+  0% {transform:translate(0px,0px) rotate(-20deg);opacity:0;}
+  12% {opacity:.65;}
+  50% {transform:translate(-65px,28px) rotate(75deg);opacity:.65;}
+  88% {opacity:.55;}
+  100% {transform:translate(-135px,65px) rotate(160deg);opacity:0;}
+}
+.motion-trace {animation:border-travel 9s linear infinite;stroke-dasharray:55 945;stroke-dashoffset:0;}
+@keyframes border-travel {to {stroke-dashoffset:-1000;}}
+.motion-stripe {animation:stripe-pulse 5s ease-in-out infinite;animation-delay:var(--delay);}
+@keyframes stripe-pulse {0%,65%,100% {opacity:1;} 78% {opacity:.5;} 88% {opacity:1;}}
+.motion-front {animation:headlight-glint 7s ease-in-out infinite;opacity:.06;}
+@keyframes headlight-glint {0%,58%,100% {opacity:.06;} 68% {opacity:.42;} 77% {opacity:.1;}}
+.motion-rear {animation:rear-glow 4.5s ease-in-out infinite;opacity:.1;}
+@keyframes rear-glow {0%,100% {opacity:.1;} 50% {opacity:.5;}}
+.motion-smoke {animation:smoke-drift 6s ease-out infinite;animation-delay:var(--delay);opacity:0;}
+@keyframes smoke-drift {0% {transform:translate(0px,0px) scale(.85);opacity:0;} 20% {opacity:.23;} 65% {opacity:.16;} 100% {transform:translate(48px,-15px) scale(1.22);opacity:0;}}
+@media (prefers-reduced-motion: reduce) {.motion-petal,.motion-trace,.motion-front,.motion-rear,.motion-smoke{display:none!important;animation:none!important;}.motion-stripe{animation:none!important;opacity:1!important;}}
+</style><path d="M21 64L21 27.970L44.360 10L348.727 10L372.727 27L928.231 27L936 35.546L936 64" pathLength="1000" fill="none" stroke="#ff557b" stroke-width="2" stroke-linecap="round" opacity=".85" class="motion-trace"/></svg>

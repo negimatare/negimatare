@@ -1,0 +1,76 @@
+{
+  "name": "Samuel Gratarola",
+  "github_username": "negimatare",
+  "linkedin_url": "https://www.linkedin.com/in/samuel-gratarola/",
+  "about_lines": [
+    "I build scalable, maintainable web applications",
+    "across the front end and back end, with a strong",
+    "focus on clean architecture and design patterns.",
+    "",
+    "Front-end engineering is where I'm happiest:",
+    "reusable UI components, accessible interfaces,",
+    "performance optimisation and modular design.",
+    "",
+    "Outside work, I build Claude Code plugins that",
+    "bring structure, and a bit of fun, to AI coding."
+  ],
+  "about_alt": "Samuel Gratarola is a software developer focused on scalable, maintainable web applications. He works across front-end and back-end development, with a particular interest in front-end engineering, reusable UI components, clean architecture, performance and accessibility.",
+  "stack": [
+    "typescript",
+    "javascript",
+    "react",
+    "redux",
+    "tailwindcss",
+    "nodejs",
+    "csharp",
+    "dotnet",
+    "python",
+    "azure",
+    "amazonwebservices",
+    "docker",
+    "playwright"
+  ],
+  "projects": [
+    {
+      "title": "Negima Mochi",
+      "description": "Claude Code plugins that plan, test, review and commit like a careful engineer.",
+      "url": null,
+      "tags": [
+        "Claude Code",
+        "Plugins"
+      ],
+      "stars": null,
+      "forks": null,
+      "banner": "negima-mochi"
+    },
+    {
+      "title": "Hop Shot",
+      "description": "An NES-style shooting gallery that plays inside Claude Code while it works.",
+      "url": null,
+      "tags": [
+        "C++20",
+        "SDL3"
+      ],
+      "stars": null,
+      "forks": null,
+      "banner": "hopshot"
+    },
+    {
+      "title": "Negima UI Kit",
+      "description": "A React starter kit with Fluent UI, TypeScript, Redux and MSAL sign-in.",
+      "url": "https://github.com/negimatare/negima-ui-kit-react",
+      "tags": [
+        "React",
+        "Fluent UI",
+        "TypeScript"
+      ],
+      "stars": null,
+      "forks": null,
+      "banner": "negima-ui-kit"
+    }
+  ],
+  "stats_image": null,
+  "about_font_size": 13,
+  "about_line_height": 15.2,
+  "export_scale": 2
+}
