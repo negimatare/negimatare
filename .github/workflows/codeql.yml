@@ -1,6 +1,3 @@
-# CodeQL advanced setup. Runs on every PR (Dependabot's included) so the
-# ruleset can require "Analyze (actions)" and "Analyze (python)" before merge.
-# No paths filter on purpose: a required check that never starts blocks the PR.
 name: CodeQL
 on:
   push:
